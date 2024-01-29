@@ -8,10 +8,10 @@
 Build  : _fbf00d6b-20230626 OPENFOAM=2306 version=2306
 Arch   : "LSB;label=32;scalar=64"
 Exec   : buoyantBoussinesqSimpleFoam -parallel -decomposeParDict system/decomposeParDict.6
-Date   : Jan 26 2024
-Time   : 12:42:25
+Date   : Jan 29 2024
+Time   : 18:20:58
 Host   : TheMachine
-PID    : 81105
+PID    : 76948
 I/O    : uncollated
 Case   : /home/adrian/run/TFG_FILES/mbTest
 nProcs : 6
@@ -98,271 +98,360 @@ Time = 1
 smoothSolver:  Solving for Ux, Initial residual = 1, Final residual = 0.0909422, No Iterations 9
 smoothSolver:  Solving for Uy, Initial residual = 1, Final residual = 0.0900016, No Iterations 16
 smoothSolver:  Solving for Uz, Initial residual = 1, Final residual = 0.094677, No Iterations 17
-smoothSolver:  Solving for T, Initial residual = 1, Final residual = 0.707664, No Iterations 1000
+smoothSolver:  Solving for T, Initial residual = 1, Final residual = 0.700208, No Iterations 1000
 GAMG:  Solving for p_rgh, Initial residual = 1, Final residual = 0.00967509, No Iterations 7
 time step continuity errors : sum local = 0.00201465, global = 8.25543e-05, cumulative = 8.25543e-05
 smoothSolver:  Solving for omega, Initial residual = 0.0105917, Final residual = 0.000579918, No Iterations 3
 bounding omega, min: -82.1963 max: 47079.3 average: 299.607
 smoothSolver:  Solving for k, Initial residual = 1, Final residual = 0.0790729, No Iterations 3
-ExecutionTime = 6.43 s  ClockTime = 7 s
+ExecutionTime = 6.48 s  ClockTime = 7 s
 
 Time = 2
 
 smoothSolver:  Solving for Ux, Initial residual = 0.350015, Final residual = 0.0307151, No Iterations 11
 smoothSolver:  Solving for Uy, Initial residual = 0.800095, Final residual = 0.0771334, No Iterations 10
 smoothSolver:  Solving for Uz, Initial residual = 0.679594, Final residual = 0.0628842, No Iterations 10
-smoothSolver:  Solving for T, Initial residual = 0.0124839, Final residual = 0.001221, No Iterations 148
+smoothSolver:  Solving for T, Initial residual = 0.0222733, Final residual = 0.00219465, No Iterations 148
 GAMG:  Solving for p_rgh, Initial residual = 0.94977, Final residual = 0.00821363, No Iterations 5
 time step continuity errors : sum local = 0.0877709, global = 0.00220458, cumulative = 0.00228713
 smoothSolver:  Solving for omega, Initial residual = 0.0640415, Final residual = 0.00516796, No Iterations 3
 smoothSolver:  Solving for k, Initial residual = 0.20564, Final residual = 0.0176577, No Iterations 3
-ExecutionTime = 8.26 s  ClockTime = 8 s
+ExecutionTime = 8.34 s  ClockTime = 9 s
 
 Time = 3
 
 smoothSolver:  Solving for Ux, Initial residual = 0.386053, Final residual = 0.0338265, No Iterations 6
 smoothSolver:  Solving for Uy, Initial residual = 0.688489, Final residual = 0.0575599, No Iterations 8
 smoothSolver:  Solving for Uz, Initial residual = 0.643614, Final residual = 0.0633197, No Iterations 6
-smoothSolver:  Solving for T, Initial residual = 0.413127, Final residual = 0.0403251, No Iterations 26
+smoothSolver:  Solving for T, Initial residual = 0.583892, Final residual = 0.0562498, No Iterations 25
 GAMG:  Solving for p_rgh, Initial residual = 0.484287, Final residual = 0.00402538, No Iterations 5
 time step continuity errors : sum local = 0.152377, global = 0.00697183, cumulative = 0.00925897
 smoothSolver:  Solving for omega, Initial residual = 0.0740893, Final residual = 0.00606757, No Iterations 3
 smoothSolver:  Solving for k, Initial residual = 0.127654, Final residual = 0.0110042, No Iterations 3
-ExecutionTime = 9.49 s  ClockTime = 10 s
+ExecutionTime = 9.6 s  ClockTime = 10 s
 
 Time = 4
 
 smoothSolver:  Solving for Ux, Initial residual = 0.622825, Final residual = 0.0507152, No Iterations 10
 smoothSolver:  Solving for Uy, Initial residual = 0.727098, Final residual = 0.0684814, No Iterations 9
 smoothSolver:  Solving for Uz, Initial residual = 0.691026, Final residual = 0.0597762, No Iterations 9
-smoothSolver:  Solving for T, Initial residual = 0.589064, Final residual = 0.0587322, No Iterations 16
+smoothSolver:  Solving for T, Initial residual = 0.562254, Final residual = 0.0556776, No Iterations 27
 GAMG:  Solving for p_rgh, Initial residual = 0.306877, Final residual = 0.00301482, No Iterations 5
 time step continuity errors : sum local = 0.684754, global = -0.0204279, cumulative = -0.0111689
 smoothSolver:  Solving for omega, Initial residual = 0.11597, Final residual = 0.00736153, No Iterations 3
 smoothSolver:  Solving for k, Initial residual = 0.156433, Final residual = 0.0119666, No Iterations 3
-ExecutionTime = 10.76 s  ClockTime = 11 s
+ExecutionTime = 10.92 s  ClockTime = 11 s
 
 Time = 5
 
 smoothSolver:  Solving for Ux, Initial residual = 0.610348, Final residual = 0.058495, No Iterations 8
 smoothSolver:  Solving for Uy, Initial residual = 0.695011, Final residual = 0.058684, No Iterations 9
 smoothSolver:  Solving for Uz, Initial residual = 0.662959, Final residual = 0.0605851, No Iterations 8
-smoothSolver:  Solving for T, Initial residual = 0.734581, Final residual = 0.0727407, No Iterations 16
+smoothSolver:  Solving for T, Initial residual = 0.754695, Final residual = 0.0736568, No Iterations 25
 GAMG:  Solving for p_rgh, Initial residual = 0.156039, Final residual = 0.00104286, No Iterations 6
 time step continuity errors : sum local = 1.52199, global = 0.054869, cumulative = 0.0437001
 smoothSolver:  Solving for omega, Initial residual = 0.091956, Final residual = 0.00554592, No Iterations 3
 smoothSolver:  Solving for k, Initial residual = 0.147901, Final residual = 0.011249, No Iterations 3
-ExecutionTime = 12.02 s  ClockTime = 12 s
+ExecutionTime = 12.23 s  ClockTime = 13 s
 
 Time = 6
 
 smoothSolver:  Solving for Ux, Initial residual = 0.666274, Final residual = 0.0578987, No Iterations 9
 smoothSolver:  Solving for Uy, Initial residual = 0.67049, Final residual = 0.0649094, No Iterations 8
 smoothSolver:  Solving for Uz, Initial residual = 0.662785, Final residual = 0.0527744, No Iterations 9
-smoothSolver:  Solving for T, Initial residual = 0.988375, Final residual = 0.0842155, No Iterations 6
+smoothSolver:  Solving for T, Initial residual = 0.854982, Final residual = 0.0850093, No Iterations 21
 GAMG:  Solving for p_rgh, Initial residual = 0.0775797, Final residual = 0.000698588, No Iterations 6
 time step continuity errors : sum local = 4.69225, global = -0.0491637, cumulative = -0.00546354
 smoothSolver:  Solving for omega, Initial residual = 0.102721, Final residual = 0.00531033, No Iterations 3
 smoothSolver:  Solving for k, Initial residual = 0.162941, Final residual = 0.0128332, No Iterations 3
-ExecutionTime = 13.26 s  ClockTime = 13 s
+ExecutionTime = 13.52 s  ClockTime = 14 s
 
 Time = 7
 
 smoothSolver:  Solving for Ux, Initial residual = 0.645243, Final residual = 0.0564647, No Iterations 8
 smoothSolver:  Solving for Uy, Initial residual = 0.674122, Final residual = 0.066962, No Iterations 8
 smoothSolver:  Solving for Uz, Initial residual = 0.648529, Final residual = 0.0540812, No Iterations 8
-smoothSolver:  Solving for T, Initial residual = 0.999553, Final residual = 0.0820568, No Iterations 10
+smoothSolver:  Solving for T, Initial residual = 0.917834, Final residual = 0.0873744, No Iterations 18
 GAMG:  Solving for p_rgh, Initial residual = 0.0565587, Final residual = 0.000375227, No Iterations 7
 time step continuity errors : sum local = 7.0349, global = 0.201836, cumulative = 0.196372
 smoothSolver:  Solving for omega, Initial residual = 0.0798332, Final residual = 0.00400368, No Iterations 3
 smoothSolver:  Solving for k, Initial residual = 0.159114, Final residual = 0.0120541, No Iterations 3
-ExecutionTime = 14.53 s  ClockTime = 15 s
+ExecutionTime = 14.79 s  ClockTime = 15 s
 
 Time = 8
 
 smoothSolver:  Solving for Ux, Initial residual = 0.669222, Final residual = 0.065271, No Iterations 9
 smoothSolver:  Solving for Uy, Initial residual = 0.663306, Final residual = 0.0542513, No Iterations 9
 smoothSolver:  Solving for Uz, Initial residual = 0.653196, Final residual = 0.0568663, No Iterations 9
-smoothSolver:  Solving for T, Initial residual = 0.997581, Final residual = 8.38502e+211, No Iterations 1000
+smoothSolver:  Solving for T, Initial residual = 0.951854, Final residual = 0.0901308, No Iterations 16
 GAMG:  Solving for p_rgh, Initial residual = 0.0306602, Final residual = 0.000221271, No Iterations 8
 time step continuity errors : sum local = 17.2684, global = -0.704908, cumulative = -0.508536
 smoothSolver:  Solving for omega, Initial residual = 0.0868181, Final residual = 0.00386648, No Iterations 3
 smoothSolver:  Solving for k, Initial residual = 0.16163, Final residual = 0.0120225, No Iterations 3
-ExecutionTime = 20.64 s  ClockTime = 21 s
+ExecutionTime = 16.11 s  ClockTime = 17 s
 
 Time = 9
 
 smoothSolver:  Solving for Ux, Initial residual = 0.64518, Final residual = 0.0608758, No Iterations 8
 smoothSolver:  Solving for Uy, Initial residual = 0.66369, Final residual = 0.0523926, No Iterations 9
 smoothSolver:  Solving for Uz, Initial residual = 0.643119, Final residual = 0.0573869, No Iterations 8
-[0] [stack trace]
-[0] =============
-[1] [stack trace]
-[1] =============
+smoothSolver:  Solving for T, Initial residual = 0.981536, Final residual = 0.0961235, No Iterations 14
+GAMG:  Solving for p_rgh, Initial residual = 0.0165905, Final residual = 9.432e-05, No Iterations 6
+time step continuity errors : sum local = 33.7598, global = 1.20421, cumulative = 0.69567
+smoothSolver:  Solving for omega, Initial residual = 0.0726066, Final residual = 0.00321192, No Iterations 3
+smoothSolver:  Solving for k, Initial residual = 0.157711, Final residual = 0.0113142, No Iterations 3
+ExecutionTime = 17.41 s  ClockTime = 18 s
+
+Time = 10
+
+smoothSolver:  Solving for Ux, Initial residual = 0.663004, Final residual = 0.0654983, No Iterations 9
+smoothSolver:  Solving for Uy, Initial residual = 0.664059, Final residual = 0.0561273, No Iterations 9
+smoothSolver:  Solving for Uz, Initial residual = 0.653739, Final residual = 0.0587327, No Iterations 9
+smoothSolver:  Solving for T, Initial residual = 0.990235, Final residual = 0.0955149, No Iterations 16
+GAMG:  Solving for p_rgh, Initial residual = 0.0361415, Final residual = 0.000342683, No Iterations 6
+time step continuity errors : sum local = 134.756, global = -3.78248, cumulative = -3.08681
+smoothSolver:  Solving for omega, Initial residual = 0.0765467, Final residual = 0.00314784, No Iterations 3
+smoothSolver:  Solving for k, Initial residual = 0.140552, Final residual = 0.0109954, No Iterations 3
+ExecutionTime = 18.72 s  ClockTime = 19 s
+
+Time = 11
+
+smoothSolver:  Solving for Ux, Initial residual = 0.653115, Final residual = 0.0566005, No Iterations 8
+smoothSolver:  Solving for Uy, Initial residual = 0.659713, Final residual = 0.0593841, No Iterations 8
+smoothSolver:  Solving for Uz, Initial residual = 0.644444, Final residual = 0.0529255, No Iterations 8
+smoothSolver:  Solving for T, Initial residual = 0.997762, Final residual = 0.0929219, No Iterations 14
+GAMG:  Solving for p_rgh, Initial residual = 0.00905464, Final residual = 9.05432e-05, No Iterations 970
+time step continuity errors : sum local = 333.349, global = 14.6189, cumulative = 11.5321
+smoothSolver:  Solving for omega, Initial residual = 0.123143, Final residual = 0.00523135, No Iterations 3
+smoothSolver:  Solving for k, Initial residual = 0.170838, Final residual = 0.014215, No Iterations 3
+ExecutionTime = 38.72 s  ClockTime = 39 s
+
+Time = 12
+
+smoothSolver:  Solving for Ux, Initial residual = 0.791495, Final residual = 0.0730176, No Iterations 5
+smoothSolver:  Solving for Uy, Initial residual = 0.789791, Final residual = 0.0756887, No Iterations 5
+smoothSolver:  Solving for Uz, Initial residual = 0.757334, Final residual = 0.0716822, No Iterations 5
+smoothSolver:  Solving for T, Initial residual = 0.999923, Final residual = 0.0987219, No Iterations 12
+GAMG:  Solving for p_rgh, Initial residual = 0.0305961, Final residual = 0.000287387, No Iterations 8
+time step continuity errors : sum local = 975.547, global = -71.255, cumulative = -59.7229
+smoothSolver:  Solving for omega, Initial residual = 0.0953904, Final residual = 0.00660269, No Iterations 3
+smoothSolver:  Solving for k, Initial residual = 0.116535, Final residual = 0.0110573, No Iterations 3
+ExecutionTime = 39.93 s  ClockTime = 40 s
+
+Time = 13
+
+smoothSolver:  Solving for Ux, Initial residual = 0.576384, Final residual = 0.0562617, No Iterations 7
+smoothSolver:  Solving for Uy, Initial residual = 0.572001, Final residual = 0.0433683, No Iterations 8
+smoothSolver:  Solving for Uz, Initial residual = 0.549206, Final residual = 0.0505604, No Iterations 7
+smoothSolver:  Solving for T, Initial residual = 0.999987, Final residual = 0.096895, No Iterations 32
+GAMG:  Solving for p_rgh, Initial residual = 0.000651061, Final residual = 5.90224e-06, No Iterations 8
+time step continuity errors : sum local = 2858.26, global = 341.105, cumulative = 281.382
+smoothSolver:  Solving for omega, Initial residual = 0.0395146, Final residual = 0.00326559, No Iterations 3
+smoothSolver:  Solving for k, Initial residual = 0.0908542, Final residual = 0.00549831, No Iterations 4
+ExecutionTime = 41.25 s  ClockTime = 42 s
+
+Time = 14
+
+smoothSolver:  Solving for Ux, Initial residual = 0.549457, Final residual = 0.0482834, No Iterations 9
+smoothSolver:  Solving for Uy, Initial residual = 0.529164, Final residual = 0.050839, No Iterations 8
+smoothSolver:  Solving for Uz, Initial residual = 0.491076, Final residual = 0.0381451, No Iterations 8
+smoothSolver:  Solving for T, Initial residual = 1, Final residual = 0.0992238, No Iterations 52
+GAMG:  Solving for p_rgh, Initial residual = 0.00205053, Final residual = 1.10757e-05, No Iterations 7
+time step continuity errors : sum local = 8205.79, global = 153.804, cumulative = 435.186
+smoothSolver:  Solving for omega, Initial residual = 0.0228427, Final residual = 0.00172304, No Iterations 3
+smoothSolver:  Solving for k, Initial residual = 0.114511, Final residual = 0.0078513, No Iterations 4
+ExecutionTime = 42.68 s  ClockTime = 43 s
+
+Time = 15
+
+smoothSolver:  Solving for Ux, Initial residual = 0.651025, Final residual = 0.0560863, No Iterations 10
+smoothSolver:  Solving for Uy, Initial residual = 0.669758, Final residual = 0.0521764, No Iterations 10
+smoothSolver:  Solving for Uz, Initial residual = 0.689892, Final residual = 0.0589026, No Iterations 9
+smoothSolver:  Solving for T, Initial residual = 0.999989, Final residual = 0.0990361, No Iterations 49
+GAMG:  Solving for p_rgh, Initial residual = 0.00634648, Final residual = 4.3609e-05, No Iterations 7
+time step continuity errors : sum local = 21324.2, global = 772.481, cumulative = 1207.67
+smoothSolver:  Solving for omega, Initial residual = 0.0369153, Final residual = 0.00232716, No Iterations 3
+smoothSolver:  Solving for k, Initial residual = 0.109089, Final residual = 0.00678429, No Iterations 4
+ExecutionTime = 44.13 s  ClockTime = 45 s
+
+Time = 16
+
+smoothSolver:  Solving for Ux, Initial residual = 0.707216, Final residual = 0.0561562, No Iterations 9
+smoothSolver:  Solving for Uy, Initial residual = 0.715305, Final residual = 0.0656253, No Iterations 8
+smoothSolver:  Solving for Uz, Initial residual = 0.697394, Final residual = 0.0646848, No Iterations 8
+smoothSolver:  Solving for T, Initial residual = 0.999984, Final residual = 0.0993879, No Iterations 74
+GAMG:  Solving for p_rgh, Initial residual = 0.0213355, Final residual = 0.000177314, No Iterations 6
+time step continuity errors : sum local = 109282, global = -17943.9, cumulative = -16736.2
+smoothSolver:  Solving for omega, Initial residual = 0.0284437, Final residual = 0.00155037, No Iterations 3
+smoothSolver:  Solving for k, Initial residual = 0.134985, Final residual = 0.00797911, No Iterations 4
+ExecutionTime = 45.61 s  ClockTime = 46 s
+
+Time = 17
+
+smoothSolver:  Solving for Ux, Initial residual = 0.659631, Final residual = 0.0522323, No Iterations 9
+smoothSolver:  Solving for Uy, Initial residual = 0.668043, Final residual = 0.0554395, No Iterations 8
+smoothSolver:  Solving for Uz, Initial residual = 0.634444, Final residual = 0.0505021, No Iterations 9
+smoothSolver:  Solving for T, Initial residual = 0.999992, Final residual = 0.248419, No Iterations 1000
+GAMG:  Solving for p_rgh, Initial residual = 0.285057, Final residual = 0.00214444, No Iterations 5
+time step continuity errors : sum local = 4.05829e+06, global = -462986, cumulative = -479722
+smoothSolver:  Solving for omega, Initial residual = 0.14187, Final residual = 0.0111848, No Iterations 3
+smoothSolver:  Solving for k, Initial residual = 0.197456, Final residual = 0.0105931, No Iterations 4
+ExecutionTime = 51.17 s  ClockTime = 52 s
+
+Time = 18
+
+smoothSolver:  Solving for Ux, Initial residual = 0.723934, Final residual = 0.0552761, No Iterations 8
+smoothSolver:  Solving for Uy, Initial residual = 0.652841, Final residual = 0.0621378, No Iterations 10
+smoothSolver:  Solving for Uz, Initial residual = 0.718245, Final residual = 0.0667454, No Iterations 9
+smoothSolver:  Solving for T, Initial residual = 1, Final residual = 0.0957821, No Iterations 15
+GAMG:  Solving for p_rgh, Initial residual = 0.960333, Final residual = 0.00907439, No Iterations 91
+time step continuity errors : sum local = 1.08289e+10, global = -1.17483e+08, cumulative = -1.17962e+08
+smoothSolver:  Solving for omega, Initial residual = 0.24683, Final residual = 0.0113897, No Iterations 3
+smoothSolver:  Solving for k, Initial residual = 0.359835, Final residual = 0.0275974, No Iterations 3
+ExecutionTime = 54.1 s  ClockTime = 55 s
+
+Time = 19
+
+smoothSolver:  Solving for Ux, Initial residual = 0.783229, Final residual = 0.0757967, No Iterations 38
+smoothSolver:  Solving for Uy, Initial residual = 0.872956, Final residual = 0.0754159, No Iterations 116
+smoothSolver:  Solving for Uz, Initial residual = 0.883405, Final residual = 0.0847999, No Iterations 27
+smoothSolver:  Solving for T, Initial residual = 1, Final residual = 0.0992485, No Iterations 32
+GAMG:  Solving for p_rgh, Initial residual = 1, Final residual = 3.84794, No Iterations 1000
+time step continuity errors : sum local = 2.14567e+26, global = 3.33279e+23, cumulative = 3.33279e+23
+smoothSolver:  Solving for omega, Initial residual = 0.108787, Final residual = 0.0073671, No Iterations 2
+smoothSolver:  Solving for k, Initial residual = 0.53177, Final residual = 0.0367912, No Iterations 2
+ExecutionTime = 75.36 s  ClockTime = 76 s
+
+Time = 20
+
 [2] [stack trace]
 [2] =============
+[0] [stack trace]
+[0] =============
+[0] #1  Foam::sigFpe::sigHandler(int)[2] #1  Foam::sigFpe::sigHandler(int)[1] [stack trace]
+[1] =============
 [3] [stack trace]
 [3] =============
-[4] [stack trace]
-[4] =============
-[5] [stack trace]
-[5] =============
-[5] #1  [4] #1  [0] #1  [1] #1  [2] #1  [3] #1  Foam::sigFpe::sigHandler(int)Foam::sigFpe::sigHandler(int)Foam::sigFpe::sigHandler(int)Foam::sigFpe::sigHandler(int)Foam::sigFpe::sigHandler(int)Foam::sigFpe::sigHandler(int) in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
-[4] #2  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+[1] #1  Foam::sigFpe::sigHandler(int)[3] #1  Foam::sigFpe::sigHandler(int) in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
  in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
-[5] #2  ?[0] #2  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
  in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
-[1] #2  ?[3] #2  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
-[2] #2  ? in /lib/x86_64-linux-gnu/libc.so.6
-[4] #3  Foam::pow3(Foam::Field<double>&, Foam::UList<double> const&) in /lib/x86_64-linux-gnu/libc.so.6
+ in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+[2] #2  ?[1] #2  ?[0] #2  ?[3] #2  ? in /lib/x86_64-linux-gnu/libc.so.6
+[0] #3   in Foam::GaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int)/lib/x86_64-linux-gnu/libc.so.6
  in /lib/x86_64-linux-gnu/libc.so.6
-[0] #3  Foam::pow3(Foam::Field<double>&, Foam::UList<double> const&) in /lib/x86_64-linux-gnu/libc.so.6
-[3] #3  Foam::pow3(Foam::Field<double>&, Foam::UList<double> const&)[5] #3  Foam::pow3(Foam::Field<double>&, Foam::UList<double> const&) in /lib/x86_64-linux-gnu/libc.so.6
- in /lib/x86_64-linux-gnu/libc.so.6
-[1] #3  Foam::pow3(Foam::Field<double>&, Foam::UList<double> const&)[2] #3  Foam::pow3(Foam::Field<double>&, Foam::UList<double> const&) in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
-[4] #4  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
-[0] #4  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
-[1] #4  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
-[2] #4  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+[1] #3  Foam::GaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int)[3] #3   in /lib/x86_64-linux-gnu/libc.so.6
+Foam::GaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int)[2] #3  Foam::GaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
  in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
-[5] #[3] #4  ?4  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so
-[4] #5  Foam::radiation::radiationModel::ST(Foam::dimensioned<double> const&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&) const in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so
-[0] #5  Foam::radiation::radiationModel::ST(Foam::dimensioned<double> const&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&) const in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so
-[2] #5  Foam::radiation::radiationModel::ST(Foam::dimensioned<double> const&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&) const in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so
-[1] #5  Foam::radiation::radiationModel::ST(Foam::dimensioned<double> const&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&) const in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so
-[5] #5  Foam::radiation::radiationModel::ST(Foam::dimensioned<double> const&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&) const in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so
-[3] #5  Foam::radiation::radiationModel::ST(Foam::dimensioned<double> const&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&) const in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so
-[4] #6   in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so
-[0] #6   in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so
-[2] #6   in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so
-[1] #6   in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so
-[5] #6  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so
-[3] #6  ????? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
-[4] #7  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
-[0] #7  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
-[2] #7  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
-[1] #7  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
-[5] #7  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
-[3] #7  ? in /lib/x86_64-linux-gnu/libc.so.6
-[4] #8  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
-[0] #8  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
-[2] #8  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
-[3] #8  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
-[1] #8  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
-[5] #8  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
-[0] #9   in /lib/x86_64-linux-gnu/libc.so.6
-[4] #9   in /lib/x86_64-linux-gnu/libc.so.6
-[3] #9   in /lib/x86_64-linux-gnu/libc.so.6
+[1] #4   in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+Foam::GaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const[0] #4  Foam::GaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const[3] #4  Foam::GaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+[2] #4  Foam::GaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+ in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+ in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+[1] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const[0] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const[3] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+[2] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+ in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+[3] #6  ?[0] #6  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+[1] #6  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+[2] #6  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so
+ in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so
+[3] #7  [0] #7  Foam::fvMesh::solve(Foam::fvMatrix<Foam::Vector<double> >&, Foam::dictionary const&) constFoam::fvMesh::solve(Foam::fvMatrix<Foam::Vector<double> >&, Foam::dictionary const&) const in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so
+ in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so
+[2] #7  Foam::fvMesh::solve(Foam::fvMatrix<Foam::Vector<double> >&, Foam::dictionary const&) const[1] #7  Foam::fvMesh::solve(Foam::fvMatrix<Foam::Vector<double> >&, Foam::dictionary const&) const in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so
+[0] #8   in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so
+[3] #8   in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so
+[1] #8  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so
+?[2] #8  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
+[3] #9  ?? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
+[0] #9  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
+[1] #9  ? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
 [2] #9  ? in /lib/x86_64-linux-gnu/libc.so.6
-[5] #9   in /lib/x86_64-linux-gnu/libc.so.6
-[1] #9  ????? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
-[0] =============
-[TheMachine:81105] *** Process received signal ***
-[TheMachine:81105] Signal: Floating point exception (8)
-[TheMachine:81105] Signal code:  (-6)
-[TheMachine:81105] Failing at address: 0x3e800013cd1
-[TheMachine:81105] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f6b47606520]
-[TheMachine:81105] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f6b4765a9fc]
-[TheMachine:81105] [ 2]  in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
-[4] =============
-/lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f6b47606476]
-[TheMachine:81105] [ 3] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f6b47606520]
-[TheMachine:81105] [ 4] [TheMachine:81109] *** Process received signal ***
-[TheMachine:81109] Signal: Floating point exception (8)
-[TheMachine:81109] Signal code:  (-6)
-[TheMachine:81109] Failing at address: 0x3e800013cd5
-[TheMachine:81109] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f6429d45520]
-[TheMachine:81109] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f6429d999fc]
-[TheMachine:81109] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f6429d45476]
-[TheMachine:81109] [ 3] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f6429d45520]
-[TheMachine:81109] [ 4] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam4pow3ERNS_5FieldIdEERKNS_5UListIdEE+0x29)[0x7f6b4809c899]
-[TheMachine:81105] [ 5] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so(+0x567d4)[0x7f6b485407d4]
-[TheMachine:81105] [ 6] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so(_ZNK4Foam9radiation14radiationModel2STERKNS_11dimensionedIdEERNS_14GeometricFieldIdNS_12fvPatchFieldENS_7volMeshEEE+0x56)[0x7f6b48547706]
-[TheMachine:81105] [ 7] buoyantBoussinesqSimpleFoam(+0x206de)[0x55c717c216de]
-[TheMachine:81105] [ 8] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam4pow3ERNS_5FieldIdEERKNS_5UListIdEE+0x29)[0x7f642a7db899]
-[TheMachine:81109] [ 5] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f6b475edd90]
-[TheMachine:81105] [ 9] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so(+0x567d4)[0x7f642ac7f7d4]
-[TheMachine:81109] [ 6] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so(_ZNK4Foam9radiation14radiationModel2STERKNS_11dimensionedIdEERNS_14GeometricFieldIdNS_12fvPatchFieldENS_7volMeshEEE+0x56)[0x7f642ac86706]
-[TheMachine:81109] [ 7] buoyantBoussinesqSimpleFoam(+0x206de)[0x560744dd36de]
-[TheMachine:81109] [ 8] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f6b475ede40]
-[TheMachine:81105] [10] buoyantBoussinesqSimpleFoam(+0x28f85)[0x55c717c29f85]
-[TheMachine:81105] *** End of error message ***
-/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f6429d2cd90]
-[TheMachine:81109] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f6429d2ce40]
-[TheMachine:81109] [10] buoyantBoussinesqSimpleFoam(+0x28f85)[0x560744ddbf85]
-[TheMachine:81109] *** End of error message ***
+[3] #10  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
+ in /lib/x86_64-linux-gnu/libc.so.6
+[0] #10  __libc_start_main[1] #10  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
+[2] #10  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
+[1] #11   in /lib/x86_64-linux-gnu/libc.so.6
+[3] #11   in /lib/x86_64-linux-gnu/libc.so.6
+[0] #11  ? in /lib/x86_64-linux-gnu/libc.so.6
+[2] #11  ??? in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
+[3] =============
+[TheMachine:76951] *** Process received signal ***
+[TheMachine:76951] Signal: Floating point exception (8)
+[TheMachine:76951] Signal code:  (-6)
+[TheMachine:76951] Failing at address: 0x3e800012c97
  in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
 [1] =============
-[TheMachine:81106] *** Process received signal ***
-[TheMachine:81106] Signal: Floating point exception (8)
-[TheMachine:81106] Signal code:  (-6)
-[TheMachine:81106] Failing at address: 0x3e800013cd2
-[TheMachine:81106] [ 0]  in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam in 
-[3] =============
-/lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f4167246520]
-[TheMachine:81106] [ 1] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
+[TheMachine:76949] *** Process received signal ***
+[TheMachine:76949] Signal: Floating point exception (8)
+[TheMachine:76949] Signal code:  (-6)
+[TheMachine:76949] Failing at address: 0x3e800012c95
+[TheMachine:76949] [ 0] [TheMachine:76951] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f1b5cce1520]
+[TheMachine:76951] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f2cb48bf520]
+[TheMachine:76949] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f2cb49139fc]
+[TheMachine:76949] [ 2] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f1b5cd359fc]
+[TheMachine:76951] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f1b5cce1476]
+[TheMachine:76951] [ 3] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f1b5cce1520]
+[TheMachine:76951] [ 4] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f2cb48bf476]
+[TheMachine:76949] [ 3] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f2cb48bf520]
+[TheMachine:76949] [ 4]  in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
+[0] =============
+[TheMachine:76948] *** Process received signal ***
+[TheMachine:76948] Signal: Floating point exception (8)
+[TheMachine:76948] Signal code:  (-6)
+[TheMachine:76948] Failing at address: 0x3e800012c94
+/usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam19GaussSeidelSmoother6smoothERKNS_4wordERNS_5FieldIdEERKNS_9lduMatrixERKS5_RKNS_10FieldFieldIS4_dEERKNS_8UPtrListIKNS_17lduInterfaceFieldEEEhi+0x20d)[0x7f1b5d6575bd]
+[TheMachine:76951] [ 5] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam19GaussSeidelSmoother6smoothERKNS_4wordERNS_5FieldIdEERKNS_9lduMatrixERKS5_RKNS_10FieldFieldIS4_dEERKNS_8UPtrListIKNS_17lduInterfaceFieldEEEhi+0x20d)[0x7f2cb52355bd]
+[TheMachine:76949] [ 5] [TheMachine:76948] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7fac4c2f1520]
+[TheMachine:76948] [ 1] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZNK4Foam19GaussSeidelSmoother6smoothERNS_5FieldIdEERKS2_hi+0x4b)[0x7f1b5d6576db]
+[TheMachine:76951] [ 6] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZNK4Foam19GaussSeidelSmoother6smoothERNS_5FieldIdEERKS2_hi+0x4b)[0x7f2cb52356db]
+[TheMachine:76949] [ 6] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7fac4c3459fc]
+[TheMachine:76948] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7fac4c2f1476]
+[TheMachine:76948] [ 3] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7fac4c2f1520]
+[TheMachine:76948] [ 4] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZNK4Foam12smoothSolver5solveERNS_5FieldIdEERKS2_h+0x4b1)[0x7f1b5d653ef1]
+[TheMachine:76951] [ 7] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZNK4Foam12smoothSolver5solveERNS_5FieldIdEERKS2_h+0x4b1)[0x7f2cb5231ef1]
+[TheMachine:76949] [ 7] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so(+0x4b5cd6)[0x7f1b5efd4cd6]
+[TheMachine:76951] [ 8] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so(+0x4b5cd6)[0x7f2cb6bb2cd6]
+[TheMachine:76949] [ 8] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam19GaussSeidelSmoother6smoothERKNS_4wordERNS_5FieldIdEERKNS_9lduMatrixERKS5_RKNS_10FieldFieldIS4_dEERKNS_8UPtrListIKNS_17lduInterfaceFieldEEEhi+0x20d)[0x7fac4cc675bd]
+[TheMachine:76948] [ 5] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so(_ZNK4Foam6fvMesh5solveERNS_8fvMatrixINS_6VectorIdEEEERKNS_10dictionaryE+0x28)[0x7f2cb6b96448]
+[TheMachine:76949] [ 9] buoyantBoussinesqSimpleFoam(+0x201e2)[0x5629cb10c1e2]
+[TheMachine:76949] [10] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f2cb48a6d90]
+[TheMachine:76949] [11] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so(_ZNK4Foam6fvMesh5solveERNS_8fvMatrixINS_6VectorIdEEEERKNS_10dictionaryE+0x28)[0x7f1b5efb8448]
+[TheMachine:76951] [ 9] buoyantBoussinesqSimpleFoam(+0x201e2)[0x5628dc20b1e2]
+[TheMachine:76951] [10] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f1b5ccc8d90]
+[TheMachine:76951] [11] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f2cb48a6e40]
+[TheMachine:76949] [12] buoyantBoussinesqSimpleFoam(+0x28f85)[0x5629cb114f85]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f1b5ccc8e40]
+[TheMachine:76951] [12] buoyantBoussinesqSimpleFoam(+0x28f85)[0x5628dc213f85]
+[TheMachine:76951] *** End of error message ***
+[TheMachine:76949] *** End of error message ***
+/usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZNK4Foam19GaussSeidelSmoother6smoothERNS_5FieldIdEERKS2_hi+0x4b)[0x7fac4cc676db]
+[TheMachine:76948] [ 6] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZNK4Foam12smoothSolver5solveERNS_5FieldIdEERKS2_h+0x4b1)[0x7fac4cc63ef1]
+[TheMachine:76948] [ 7] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so(+0x4b5cd6)[0x7fac4e5e4cd6]
+[TheMachine:76948] [ 8]  in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
 [2] =============
-[TheMachine:81108] *** Process received signal ***
-[TheMachine:81108] Signal: Floating point exception (8)
-[TheMachine:81108] Signal code:  (-6)
-[TheMachine:81108] Failing at address: 0x3e800013cd4
-[TheMachine:81107] *** Process received signal ***
-[TheMachine:81107] Signal: Floating point exception (8)
-[TheMachine:81107] Signal code:  (-6)
-[TheMachine:81107] Failing at address: 0x3e800013cd3
-/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f416729a9fc]
-[TheMachine:81106] [ 2] [TheMachine:81108] [ 0] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f4167246476]
-[TheMachine:81106] [ 3] [TheMachine:81107] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7faefa2da520]
-[TheMachine:81108] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f4167246520]
-[TheMachine:81106] [ 4] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f2b864e7520]
-[TheMachine:81107] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7faefa32e9fc]
-[TheMachine:81108] [ 2] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f2b8653b9fc]
-[TheMachine:81107] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7faefa2da476]
-[TheMachine:81108] [ 3] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f2b864e7476]
-[TheMachine:81107] [ 3] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7faefa2da520]
-[TheMachine:81108] [ 4] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f2b864e7520]
-[TheMachine:81107] [ 4] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam4pow3ERNS_5FieldIdEERKNS_5UListIdEE+0x29)[0x7f4167cdc899]
-[TheMachine:81106] [ 5] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so(+0x567d4)[0x7f41681807d4]
-[TheMachine:81106] [ 6] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so(_ZNK4Foam9radiation14radiationModel2STERKNS_11dimensionedIdEERNS_14GeometricFieldIdNS_12fvPatchFieldENS_7volMeshEEE+0x56)[0x7f4168187706]
-[TheMachine:81106] [ 7] buoyantBoussinesqSimpleFoam(+0x206de)[0x55f31f67e6de]
-[TheMachine:81106] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f416722dd90]
-[TheMachine:81106] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f416722de40]
-[TheMachine:81106] [10] buoyantBoussinesqSimpleFoam(+0x28f85)[0x55f31f686f85]
-[TheMachine:81106] *** End of error message ***
-/usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam4pow3ERNS_5FieldIdEERKNS_5UListIdEE+0x29)[0x7f2b86f7d899]
-[TheMachine:81107] [ 5] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so(+0x567d4)[0x7f2b874217d4]
-[TheMachine:81107] [ 6] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so(_ZNK4Foam9radiation14radiationModel2STERKNS_11dimensionedIdEERNS_14GeometricFieldIdNS_12fvPatchFieldENS_7volMeshEEE+0x56)[0x7f2b87428706]
-[TheMachine:81107] [ 7] buoyantBoussinesqSimpleFoam(+0x206de)[0x5611ef1916de]
-[TheMachine:81107] [ 8] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam4pow3ERNS_5FieldIdEERKNS_5UListIdEE+0x29)[0x7faefad70899]
-[TheMachine:81108] [ 5] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so(+0x567d4)[0x7faefb2147d4]
-[TheMachine:81108] [ 6] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so(_ZNK4Foam9radiation14radiationModel2STERKNS_11dimensionedIdEERNS_14GeometricFieldIdNS_12fvPatchFieldENS_7volMeshEEE+0x56)[0x7faefb21b706]
-[TheMachine:81108] [ 7] buoyantBoussinesqSimpleFoam(+0x206de)[0x560cfc9386de]
-[TheMachine:81108] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f2b864ced90]
-[TheMachine:81107] [ 9] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7faefa2c1d90]
-[TheMachine:81108] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7faefa2c1e40]
-[TheMachine:81108] [10] buoyantBoussinesqSimpleFoam(+0x28f85)[0x560cfc940f85]
-/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f2b864cee40]
-[TheMachine:81107] [10] [TheMachine:81108] *** End of error message ***
-buoyantBoussinesqSimpleFoam(+0x28f85)[0x5611ef199f85]
-[TheMachine:81107] *** End of error message ***
- in /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/bin/buoyantBoussinesqSimpleFoam
-[5] =============
-[TheMachine:81110] *** Process received signal ***
-[TheMachine:81110] Signal: Floating point exception (8)
-[TheMachine:81110] Signal code:  (-6)
-[TheMachine:81110] Failing at address: 0x3e800013cd6
-[TheMachine:81110] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f1819d56520]
-[TheMachine:81110] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f1819daa9fc]
-[TheMachine:81110] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f1819d56476]
-[TheMachine:81110] [ 3] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f1819d56520]
-[TheMachine:81110] [ 4] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam4pow3ERNS_5FieldIdEERKNS_5UListIdEE+0x29)[0x7f181a7ec899]
-[TheMachine:81110] [ 5] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so(+0x567d4)[0x7f181ac907d4]
-[TheMachine:81110] [ 6] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libradiationModels.so(_ZNK4Foam9radiation14radiationModel2STERKNS_11dimensionedIdEERNS_14GeometricFieldIdNS_12fvPatchFieldENS_7volMeshEEE+0x56)[0x7f181ac97706]
-[TheMachine:81110] [ 7] buoyantBoussinesqSimpleFoam(+0x206de)[0x557c6bb3e6de]
-[TheMachine:81110] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f1819d3dd90]
-[TheMachine:81110] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f1819d3de40]
-[TheMachine:81110] [10] buoyantBoussinesqSimpleFoam(+0x28f85)[0x557c6bb46f85]
-[TheMachine:81110] *** End of error message ***
+[TheMachine:76950] *** Process received signal ***
+[TheMachine:76950] Signal: Floating point exception (8)
+[TheMachine:76950] Signal code:  (-6)
+[TheMachine:76950] Failing at address: 0x3e800012c96
+[TheMachine:76950] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7fb4c372c520]
+/usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so(_ZNK4Foam6fvMesh5solveERNS_8fvMatrixINS_6VectorIdEEEERKNS_10dictionaryE+0x28)[0x7fac4e5c8448]
+[TheMachine:76948] [ 9] buoyantBoussinesqSimpleFoam(+0x201e2)[0x55d3664411e2]
+[TheMachine:76948] [10] [TheMachine:76950] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7fac4c2d8d90]
+[TheMachine:76948] [11] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7fb4c37809fc]
+[TheMachine:76950] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7fb4c372c476]
+[TheMachine:76950] [ 3] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7fac4c2d8e40]
+[TheMachine:76948] [12] buoyantBoussinesqSimpleFoam(+0x28f85)[0x55d366449f85]
+[TheMachine:76948] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7fb4c372c520]
+[TheMachine:76950] [ 4] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam19GaussSeidelSmoother6smoothERKNS_4wordERNS_5FieldIdEERKNS_9lduMatrixERKS5_RKNS_10FieldFieldIS4_dEERKNS_8UPtrListIKNS_17lduInterfaceFieldEEEhi+0x20d)[0x7fb4c40a25bd]
+[TheMachine:76950] [ 5] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZNK4Foam19GaussSeidelSmoother6smoothERNS_5FieldIdEERKS2_hi+0x4b)[0x7fb4c40a26db]
+[TheMachine:76950] [ 6] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZNK4Foam12smoothSolver5solveERNS_5FieldIdEERKS2_h+0x4b1)[0x7fb4c409eef1]
+[TheMachine:76950] [ 7] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so(+0x4b5cd6)[0x7fb4c5a1fcd6]
+[TheMachine:76950] [ 8] /usr/lib/openfoam/openfoam2306/platforms/linux64GccDPInt32Opt/lib/libfiniteVolume.so(_ZNK4Foam6fvMesh5solveERNS_8fvMatrixINS_6VectorIdEEEERKNS_10dictionaryE+0x28)[0x7fb4c5a03448]
+[TheMachine:76950] [ 9] buoyantBoussinesqSimpleFoam(+0x201e2)[0x563e994ab1e2]
+[TheMachine:76950] [10] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7fb4c3713d90]
+[TheMachine:76950] [11] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7fb4c3713e40]
+[TheMachine:76950] [12] buoyantBoussinesqSimpleFoam(+0x28f85)[0x563e994b3f85]
+[TheMachine:76950] *** End of error message ***
 --------------------------------------------------------------------------
 Primary job  terminated normally, but 1 process returned
 a non-zero exit code. Per user-direction, the job has been aborted.

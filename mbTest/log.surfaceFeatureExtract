@@ -8,10 +8,10 @@
 Build  : _fbf00d6b-20230626 OPENFOAM=2306 version=2306
 Arch   : "LSB;label=32;scalar=64"
 Exec   : surfaceFeatureExtract
-Date   : Jan 26 2024
-Time   : 12:40:42
+Date   : Jan 29 2024
+Time   : 18:19:14
 Host   : TheMachine
-PID    : 81028
+PID    : 76871
 I/O    : uncollated
 Case   : /home/adrian/run/TFG_FILES/mbTest
 nProcs : 1
@@ -80,7 +80,7 @@ Writing 8678 region edges to "/home/adrian/run/TFG_FILES/mbTest/constant/extende
 Writing 20867 edge directions to "/home/adrian/run/TFG_FILES/mbTest/constant/extendedFeatureEdgeMesh/motorBike_edgeDirections.obj"
 
 Writing featureEdgeMesh to "/home/adrian/run/TFG_FILES/mbTest/constant/triSurface/motorBike.eMesh"
-ExecutionTime = 0.71 s  ClockTime = 1 s
+ExecutionTime = 0.73 s  ClockTime = 0 s
 
 End
 
