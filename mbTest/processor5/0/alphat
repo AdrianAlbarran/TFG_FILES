@@ -47,7 +47,6 @@ boundaryField
         Pr              0.90;           // Molecular Prandtl number [-] 
         Prt             uniform 0.85;   // Turbulent Prandtl number [-] 
         z0              uniform 0.001;  // Surface roughness length [m] 
-
         value           uniform 0;
     }
 

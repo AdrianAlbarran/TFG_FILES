@@ -29,15 +29,14 @@ boundaryField
 
     outlet
     {
-        type            inletOutlet;
-        inletValue      $internalField;
-        value           $internalField;
+        type            kqRWallFunction;
+        value           uniform 0.1;
     }
 
     lowerWall
     {
         type            kqRWallFunction;
-        value           $internalField;
+        value           uniform 0.1;
     }
 
     motorBikeGroup

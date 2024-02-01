@@ -26,7 +26,8 @@ boundaryField
 
     inlet
     {
-        type            zeroGradient;
+        type            calculated;
+        uniform         $internalField
     }
 
     outlet
@@ -37,12 +38,14 @@ boundaryField
 
     lowerWall
     {
-        type            zeroGradient;
+        type            calculated;
+        uniform         $internalField
     }
 
     motorBikeGroup
     {
-        type            zeroGradient;
+        type            calculated;
+        uniform         $internalField
     }
 
     #include "include/frontBackUpperPatches"

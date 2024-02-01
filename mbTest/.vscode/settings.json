@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "p_rgh": "cpp"
+        "p_rgh": "cpp",
+        "k": "cpp"
     }
 }
