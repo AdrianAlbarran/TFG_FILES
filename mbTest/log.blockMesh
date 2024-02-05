@@ -9,9 +9,9 @@ Build  : _fbf00d6b-20230626 OPENFOAM=2306 version=2306
 Arch   : "LSB;label=32;scalar=64"
 Exec   : blockMesh
 Date   : Feb 05 2024
-Time   : 12:53:19
+Time   : 13:14:38
 Host   : TheMachine
-PID    : 135645
+PID    : 11783
 I/O    : uncollated
 Case   : /home/adrian/run/TFG_FILES/mbTest
 nProcs : 1

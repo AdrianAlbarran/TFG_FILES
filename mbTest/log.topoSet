@@ -9,9 +9,9 @@ Build  : _fbf00d6b-20230626 OPENFOAM=2306 version=2306
 Arch   : "LSB;label=32;scalar=64"
 Exec   : topoSet -parallel -decomposeParDict system/decomposeParDict.6
 Date   : Feb 05 2024
-Time   : 12:55:00
+Time   : 13:16:21
 Host   : TheMachine
-PID    : 135679
+PID    : 11817
 I/O    : uncollated
 Case   : /home/adrian/run/TFG_FILES/mbTest
 nProcs : 6
