@@ -14,7 +14,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-testExplicit
+/*testExplicit
     {
         type a;
 
@@ -22,7 +22,69 @@ testExplicit
         cellZone        testExplicit;
     }
 
+testExplicit
+{
+    type            meanVelocityForce;
+    active          yes;
+ 
+    meanVelocityForceCoeffs
+    {
+        selectionMode   cellZone;
+        cellZone        testExplicit;
+ 
+        fields          (U);
+        Ubar            (0.1335 0 0);
+        relaxation      1.0;
+    }
+}
 
+testExplicit
+{
+    type            tabulatedAccelerationSource;
+    active          yes;
 
+    selectionMode   cellZone;
+    cellZone        testExplicit;
+ 
+    fields          (U);
+
+    timeDataFileName "constant/acceleration-terms.dat";
+}
+
+*/
+codedSource
+{
+    type            scalarCodedSource;
+
+    scalarCodedSourceCoeffs
+    {
+        selectionMode   all;
+
+        fields          (h);
+        name            sourceTime;
+
+        codeInclude
+        #{
+        #};
+
+        codeCorrect
+        #{
+            Pout<< "**codeCorrect**" << endl;
+        #};
+
+        codeAddSup
+        #{
+            const Time& time = mesh().time();
+            const scalarField& V = mesh_.V();
+            scalarField& heSource = eqn.source();
+            heSource -= 0.1*sqr(time.value())*V;
+        #};
+
+        codeConstrain
+        #{
+            Pout<< "**codeConstrain**" << endl;
+        #};
+    }
+}
 
 //************************************************************************* //

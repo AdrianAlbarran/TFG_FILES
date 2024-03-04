@@ -1,0 +1,21 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2306                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      binary;
+    arch        "LSB;label=32;scalar=64";
+    class       pointSet;
+    location    "constant/polyMesh/sets";
+    object      nonManifoldPoints;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+8(13593 9511 55735 54723 57158 56521 4297 8791)
+
+// ************************************************************************* //
