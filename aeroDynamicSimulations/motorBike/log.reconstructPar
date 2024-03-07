@@ -8,12 +8,12 @@
 Build  : _fbf00d6b-20230626 OPENFOAM=2306 version=2306
 Arch   : "LSB;label=32;scalar=64"
 Exec   : reconstructPar -latestTime
-Date   : Mar 04 2024
-Time   : 18:40:14
-Host   : TheMachine
-PID    : 112997
+Date   : Mar 06 2024
+Time   : 21:46:50
+Host   : LegionSlim
+PID    : 9839
 I/O    : uncollated
-Case   : /home/adrian/run/TFG_FILES/aeroDynamicSimulations/motorBike
+Case   : /home/adrian/run/TFG/TFG_FILES/aeroDynamicSimulations/motorBike
 nProcs : 1
 trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
@@ -22,7 +22,40 @@ allowSystemOperations : Allowing user-supplied system call operations
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 Create time
 
---> FOAM Warning : 
-    From int main(int, char**)
-    in file reconstructPar.C at line 271
-    No times selected
+
+
+Reconstructing fields
+region=region0
+
+Time = 500
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        k
+        nut
+        omega
+        p
+
+    Reconstructing volVectorFields
+
+        U
+        UNear
+        explicitSourceU
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+No FA fields
+
+
+End
+

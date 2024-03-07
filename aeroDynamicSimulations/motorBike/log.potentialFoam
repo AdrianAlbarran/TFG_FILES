@@ -8,16 +8,16 @@
 Build  : _fbf00d6b-20230626 OPENFOAM=2306 version=2306
 Arch   : "LSB;label=32;scalar=64"
 Exec   : potentialFoam -parallel -decomposeParDict system/decomposeParDict.6 -writephi
-Date   : Mar 04 2024
-Time   : 18:40:11
-Host   : TheMachine
-PID    : 112784
+Date   : Mar 06 2024
+Time   : 21:43:32
+Host   : LegionSlim
+PID    : 8867
 I/O    : uncollated
-Case   : /home/adrian/run/TFG_FILES/aeroDynamicSimulations/motorBike
+Case   : /home/adrian/run/TFG/TFG_FILES/aeroDynamicSimulations/motorBike
 nProcs : 6
 Hosts  :
 (
-    (TheMachine 6)
+    (LegionSlim 6)
 )
 Pstream initialized with:
     floatTransfer      : false
@@ -61,7 +61,7 @@ GAMG:  Solving for Phi, Initial residual = 6.68224e-07, Final residual = 7.79406
 GAMG:  Solving for Phi, Initial residual = 4.79845e-07, Final residual = 5.34494e-08, No Iterations 1
 Continuity error = 3.16846e-06
 Interpolated velocity error = 0.00028238
-ExecutionTime = 0.76 s  ClockTime = 0 s
+ExecutionTime = 0.98 s  ClockTime = 1 s
 
 End
 

@@ -5,12 +5,11 @@
     tmp<fvVectorMatrix> tUEqn
     (
         fvm::div(phi, U)
-      + fvm::div(phi, explicitSourceU)
       + MRF.DDt(U)
       + turbulence->divDevReff(U)
      
      ==
-        fvOptions(U)
+        fvOptions(U)+explicitSourceU
     );
     fvVectorMatrix& UEqn = tUEqn.ref();
 

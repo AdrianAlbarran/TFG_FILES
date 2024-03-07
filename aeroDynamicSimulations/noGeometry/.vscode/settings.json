@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "k": "cpp",
-        "fvoptions": "c"
+        "fvoptions": "c",
+        "controldict": "c"
     }
 }

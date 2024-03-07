@@ -14,14 +14,15 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-/*testExplicit
-    {
-        type a;
+/*
+testExplicit
+{
+    type a;
 
-        selectionMode   cellZone;
-        cellZone        testExplicit;
-    }
-
+    selectionMode   cellZone;
+    cellZone        testExplicit;
+}
+*/
 testExplicit
 {
     type            meanVelocityForce;
@@ -32,12 +33,12 @@ testExplicit
         selectionMode   cellZone;
         cellZone        testExplicit;
  
-        fields          (U);
-        Ubar            (0.1335 0 0);
+        fields          (explicitSourceU);
+        Ubar            (100 0 0);
         relaxation      1.0;
     }
 }
-
+/*
 testExplicit
 {
     type            tabulatedAccelerationSource;
@@ -52,39 +53,5 @@ testExplicit
 }
 
 */
-codedSource
-{
-    type            scalarCodedSource;
-
-    scalarCodedSourceCoeffs
-    {
-        selectionMode   all;
-
-        fields          (h);
-        name            sourceTime;
-
-        codeInclude
-        #{
-        #};
-
-        codeCorrect
-        #{
-            Pout<< "**codeCorrect**" << endl;
-        #};
-
-        codeAddSup
-        #{
-            const Time& time = mesh().time();
-            const scalarField& V = mesh_.V();
-            scalarField& heSource = eqn.source();
-            heSource -= 0.1*sqr(time.value())*V;
-        #};
-
-        codeConstrain
-        #{
-            Pout<< "**codeConstrain**" << endl;
-        #};
-    }
-}
 
 //************************************************************************* //

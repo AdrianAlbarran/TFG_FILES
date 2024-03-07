@@ -8,16 +8,16 @@
 Build  : _fbf00d6b-20230626 OPENFOAM=2306 version=2306
 Arch   : "LSB;label=32;scalar=64"
 Exec   : topoSet -parallel -decomposeParDict system/decomposeParDict.6
-Date   : Mar 04 2024
-Time   : 18:40:10
-Host   : TheMachine
-PID    : 112720
+Date   : Mar 06 2024
+Time   : 21:43:31
+Host   : LegionSlim
+PID    : 8803
 I/O    : uncollated
-Case   : /home/adrian/run/TFG_FILES/aeroDynamicSimulations/motorBike
+Case   : /home/adrian/run/TFG/TFG_FILES/aeroDynamicSimulations/motorBike
 nProcs : 6
 Hosts  :
 (
-    (TheMachine 6)
+    (LegionSlim 6)
 )
 Pstream initialized with:
     floatTransfer      : false
@@ -39,10 +39,10 @@ Reading topoSetDict
 
 Time = 0
     mesh not changed.
-Created cellZoneSet inner
+Created cellZoneSet testExplicit
     Applying source boxToCell
-    Adding cells with centre within boxes 1((-1 -0.5 0) (6 0.5 2))
-    cellZoneSet inner now size 253135
+    Adding cells with centre within boxes 1((0 0 0) (6 4 4))
+    cellZoneSet testExplicit now size 143192
 
 End
 
