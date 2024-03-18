@@ -4,7 +4,7 @@ cd "${0%/*}" || exit                                # Run from this directory
 #------------------------------------------------------------------------------
 
 # Alternative decomposeParDict name:
-decompDict="-decomposeParDict system/decomposeParDict.6"
+decompDict="-decomposeParDict system/decomposeParDict.8"
 ## Standard decomposeParDict name:
 # unset decompDict
 
