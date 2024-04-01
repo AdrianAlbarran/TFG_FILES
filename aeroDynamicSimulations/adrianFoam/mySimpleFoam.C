@@ -90,6 +90,7 @@ int main(int argc, char *argv[])
 
     turbulence->validate();
 
+    #include "customValues.H"
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
     Info<< "\nStarting time loop\n" << endl;

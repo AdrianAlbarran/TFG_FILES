@@ -5,7 +5,7 @@
     tmp<fvVectorMatrix> tUEqn
     (
         fvm::div(phi, U)
-      + MRF.DDt(U)
+      //+ MRF.DDt(U)
       + turbulence->divDevReff(U)
      
      ==

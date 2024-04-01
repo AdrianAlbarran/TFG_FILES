@@ -2,6 +2,8 @@
     "files.associations": {
         "k": "cpp",
         "fvoptions": "c",
-        "controldict": "c"
+        "controldict": "c",
+        "explicitsourceu": "c",
+        "mySimpleFoam.C": "cpp"
     }
 }

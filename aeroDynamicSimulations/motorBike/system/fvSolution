@@ -18,10 +18,22 @@ solvers
 {
     p
     {
-        solver          GAMG;
         smoother        GaussSeidel;
-        tolerance       1e-7;
-        relTol          0.01;
+        preconditioner DIC;
+        solver          PCG;
+        tolerance       1e-8;
+        relTol          0.1;
+        /*nSweeps         5;
+        nCellsInCoarsestLevel   16;
+        // Solver
+        nPreSweeps              2;
+        preSweepsLevelMultiplier 1;
+        maxPreSweeps            4;
+        nPostSweeps             2;
+        postSweepsLevelMultiplier 1;
+        maxPostSweeps           4;
+        nFinestSweeps           2;
+        interpolateCorrection   no; //dudo*/
     }
 
     Phi
@@ -31,11 +43,11 @@ solvers
 
     U
     {
-        solver          smoothSolver;
         smoother        GaussSeidel;
+        preconditioner DILU;
+        solver          PBiCG;
         tolerance       1e-8;
         relTol          0.1;
-        nSweeps         1;
     }
 
     k
@@ -72,15 +84,16 @@ relaxationFactors
 {
     equations
     {
-        U               0.9;
+        U               0.7;
         k               0.7;
         omega           0.7;
+        p               0.6;
     }
 }
 
 cache
 {
-    grad(U);
+    //grad(U);
 }
 
 
