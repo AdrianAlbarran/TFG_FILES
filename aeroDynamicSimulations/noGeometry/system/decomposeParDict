@@ -5,10 +5,23 @@
 |   \\  /    A nd           | Website:  www.openfoam.com                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      decomposeParDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-flowVelocity         (20 0 0);
-pressure             1;
-turbulentKE          0.24;
-turbulentOmega       1.78;
+numberOfSubdomains 6;
+
+method          hierarchical;
+
+coeffs
+{
+    n           (3 2 1);
+}
+
 
 // ************************************************************************* //

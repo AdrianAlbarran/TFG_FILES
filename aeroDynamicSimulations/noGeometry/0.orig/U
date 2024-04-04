@@ -14,17 +14,19 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include        "include/initialConditions"
-
 dimensions      [0 1 -1 0 0 0 0];
 
-internalField   uniform $flowVelocity;
+internalField   uniform (20 0 0);
 
 boundaryField
 {
-    #includeEtc "caseDicts/setConstraintTypes"
+    //#includeEtc "caseDicts/setConstraintTypes"
 
-    #include "include/fixedInlet"
+    inlet
+    {
+        type fixedValue;
+        value $internalField;
+    }
 
     outlet
     {

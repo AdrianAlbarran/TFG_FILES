@@ -14,15 +14,13 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include        "include/initialConditions"
-
 dimensions      [0 2 -2 0 0 0 0];
 
-internalField   uniform $turbulentKE;
+internalField   uniform 0.24;
 
 boundaryField
 {
-    #includeEtc "caseDicts/setConstraintTypes"
+    //#includeEtc "caseDicts/setConstraintTypes"
 
     //- Define inlet conditions
     inlet

@@ -4,6 +4,7 @@
         "fvoptions": "c",
         "controldict": "c",
         "explicitsourceu": "c",
-        "mySimpleFoam.C": "cpp"
+        "mySimpleFoam.C": "cpp",
+        "initialconditions": "c"
     }
 }

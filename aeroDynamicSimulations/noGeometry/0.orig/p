@@ -14,15 +14,13 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include        "include/initialConditions"
-
 dimensions      [0 2 -2 0 0 0 0];
 
-internalField   uniform $pressure;
+internalField   uniform 1;
 
 boundaryField
 {
-    #includeEtc "caseDicts/setConstraintTypes"
+    //#includeEtc "caseDicts/setConstraintTypes"
 
     inlet
     {

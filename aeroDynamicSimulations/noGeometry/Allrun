@@ -19,7 +19,12 @@ decompDict="-decomposeParDict system/decomposeParDict.6"
 
 runApplication blockMesh
 
-runApplication $decompDict decomposePar
+#restore0Dir
+
+runApplication $decompDict decomposePar -fields
+
+#runApplication $decompDict decomposePar
+
 
 # Using distributedTriSurfaceMesh?
 if foamDictionary -entry geometry -value system/snappyHexMeshDict | \

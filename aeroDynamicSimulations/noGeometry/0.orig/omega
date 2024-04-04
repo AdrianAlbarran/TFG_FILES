@@ -14,15 +14,14 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include        "include/initialConditions"
 
 dimensions      [0 0 -1 0 0 0 0];
 
-internalField   uniform $turbulentOmega;
+internalField   uniform 1.78;
 
 boundaryField
 {
-    #includeEtc "caseDicts/setConstraintTypes"
+    //#includeEtc "caseDicts/setConstraintTypes"
 
     inlet
     {
