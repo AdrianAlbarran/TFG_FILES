@@ -20,7 +20,7 @@ internalField   uniform (20 0 0);
 
 boundaryField
 {
-    //#includeEtc "caseDicts/setConstraintTypes"
+    #includeEtc "caseDicts/setConstraintTypes"
 
     inlet
     {

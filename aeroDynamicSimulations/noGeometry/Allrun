@@ -21,7 +21,7 @@ runApplication blockMesh
 
 #restore0Dir
 
-runApplication $decompDict decomposePar -fields
+runApplication $decompDict decomposePar 
 
 #runApplication $decompDict decomposePar
 
@@ -43,6 +43,8 @@ runParallel $decompDict topoSet
 
 #- For parallel running: set the initial fields
 restore0Dir -processor
+
+python3 VertexDistributorTest.py
 
 runParallel $decompDict patchSummary
 
